@@ -1,0 +1,29 @@
+/ ambient light
+l a .1 .1 .1
+
+/ point light
+l p 1 1 7 5 5 5
+
+/ point light
+l p 1 -2 4 2 2 2
+
+/ point light
+l p -4 1 3 1 1 1
+
+/ sphere mesh
+i 0 0 0 ../images/uv_grid2.png
+n 0 0 0 0 0 0 0 10 0 0 0
+w ../models/sphere/sphere_10_5_uv.obj
+
+/ gray plane (ground)
+m .5 .5 .5 .1 .1 .1 5 .3 .3 .3
+t -100 -100 0 100 -100 0 -100 100 0
+t 100 -100 0 100 100 0 -100 100 0
+
+/ back plane
+m .2 .2 .8 .2 .2 .2 20 0 0 0
+t -15 15 0 15 15 0 -15 14.5 15
+t -15 14.5 15 15 15 0 15 14.5 15
+
+/ camera eye(3) view_vec(3) focal_length vp_width vp_height image_width image_height
+c 0 -4 4 0 6 -2 0.035 .053886 0.0404145 800 600

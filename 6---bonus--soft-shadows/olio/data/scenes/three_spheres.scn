@@ -1,0 +1,36 @@
+/ simple test scene file with a single sphere. all units in meters
+
+/ ambient light
+l a .1 .1 .1
+
+/ point light
+l p 3 3 3 5 5 5
+
+/ point light
+l p -3 3 3 5 5 5
+
+/ point light
+l p -3 3 -3 5 5 5
+
+/ red sphere1
+m 1 0 0 0 0 0 10 0 0 0
+s -1 0 0 1
+
+/ green sphere2
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 0 0 1
+
+/ yellow sphere3
+m .8 .8 0 .2 .2 .2 5 .1 .1 .1
+s 0 0 -1 1
+
+/ gray sphere3 (ground)
+m .5 .5 .5 .1 .1 .1 5 .1 .1 .1
+s 0 -201 0 200
+
+/ blue triangle
+m 0 0 .8 .2 .2 .2 20 .5 .5 .5
+t 1 1.5 0 -1 1.5 0 0 2.5 .5
+
+/ camera eye(3) view_vec(3) focal_length vp_width vp_height image_width image_height
+c -.5 3 5 .5 -3 -5 0.035 .053886 0.0404145 800 600

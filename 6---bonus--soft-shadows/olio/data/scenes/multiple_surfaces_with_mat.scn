@@ -1,0 +1,28 @@
+/ simple test scene file with two spheres and a triangle. all distances in meters
+
+/ ambient light
+l a .01 .01 .01
+
+/ point light
+l p 2 2 2 10 10 10
+
+/ red diffuse material
+m 1 0 0 0 0 0 10 0 0 0
+
+/ unit sphere at (-1, 0, 0)
+s -1 0 0 1
+
+/ green material
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+
+/ unit sphere at (1, 0, -2)
+s 1 0 -2 1
+
+/ yellow material
+m .5 .5 0 .5 .5 .5 5 .1 .1 .1
+
+/ triangle
+t -.5 2 -4 1.5 2 -4 .5 3 -4
+
+/ camera eye(3) view_vec(3) focal_length vp_width vp_height image_width image_height
+c 0 0 2 0 0 -1 0.035 .053886 0.0404145 800 600

@@ -1,0 +1,22 @@
+/ ambient light
+l a .1 .1 .1
+
+/ point light
+l p 1 1 7 10 10 10
+
+/ sphere mesh
+m .7 .7 0 .3 .3 .3 10 .1 .1 .1
+w ../models/sphere/sphere_10_5.obj
+
+/ gray plane (ground)
+m .5 .5 .5 .1 .1 .1 5 .1 .1 .1
+t -100 -100 0 100 -100 0 -100 100 0
+t 100 -100 0 100 100 0 -100 100 0
+
+/ back mirror
+m .2 .2 .8 .2 .2 .2 20 .2 .2 .2
+t -15 15 0 15 15 0 -15 14.5 15
+t -15 14.5 15 15 15 0 15 14.5 15
+
+/ camera eye(3) view_vec(3) focal_length vp_width vp_height image_width image_height
+c 0 -8 4 0 8 -3 0.035 .053886 0.0404145 800 600

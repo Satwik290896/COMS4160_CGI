@@ -1,0 +1,327 @@
+/ simple test scene file with two spheres and a triangle. all distances in meters
+
+/ ambient light
+l a .01 .01 .01
+
+/ point light
+l p 2 2 2 10 10 10
+
+/ point light 2
+l p 2 8 -6 30 30 30
+
+/ point light 3
+l p 0 2 -2 5 5 5
+
+/ red unit sphere at (-1, 0, 0)
+m 1 0 0 0 0 0 10 0 0 0
+s -1 0 0 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s -1 0 -2 0.7
+
+/ cyan unit sphere at (1, 0, -2)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s -1 0 -4 0.7
+
+/ red unit sphere at (-1, 0, 0)
+m 1 0 0 0 0 0 10 0 0 0
+s -1 0 -6 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s -1 0 -8 0.7
+
+/ cyan unit sphere at (1, 0, -2)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s -1 0 -10 0.7
+
+/ red unit sphere at (-1, 0, 0)
+m 1 0 0 0 0 0 10 0 0 0
+s -1 0 -12 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s -1 0 -14 0.7
+
+/ cyan unit sphere at (1, 0, -2)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s -1 0 -16 0.7
+
+/ red unit sphere at (-1, 0, 0)
+m 1 0 0 0 0 0 10 0 0 0
+s -1 0 -18 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s -1 0 -20 0.7
+
+/ cyan unit sphere at (1, 0, -2)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s -1 0 -22 0.7
+
+
+
+
+/ red unit sphere at (-1, 0, 0)
+m 1 0 0 0 0 0 10 0 0 0
+s -1 2 0 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s -1 2 -2 0.7
+
+/ cyan unit sphere at (1, 0, -2)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s -1 2 -4 0.7
+
+/ red unit sphere at (-1, 0, 0)
+m 1 0 0 0 0 0 10 0 0 0
+s -1 2 -6 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s -1 2 -8 0.7
+
+/ cyan unit sphere at (1, 0, -2)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s -1 2 -10 0.7
+
+/ red unit sphere at (-1, 0, 0)
+m 1 0 0 0 0 0 10 0 0 0
+s -1 2 -12 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s -1 2 -14 0.7
+
+/ cyan unit sphere at (1, 0, -2)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s -1 2 -16 0.7
+
+/ red unit sphere at (-1, 0, 0)
+m 1 0 0 0 0 0 10 0 0 0
+s -1 2 -18 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s -1 2 -20 0.7
+
+/ cyan unit sphere at (1, 0, -2)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s -1 2 -22 0.7
+
+
+
+
+
+/ red unit sphere at (-1, 0, 0)
+m 1 0 0 0 0 0 10 0 0 0
+s -1 -2 0 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s -1 -2 -2 0.7
+
+/ cyan unit sphere at (1, 0, -2)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s -1 -2 -4 0.7
+
+/ red unit sphere at (-1, 0, 0)
+m 1 0 0 0 0 0 10 0 0 0
+s -1 -2 -6 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s -1 -2 -8 0.7
+
+/ cyan unit sphere at (1, 0, -2)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s -1 -2 -10 0.7
+
+/ red unit sphere at (-1, 0, 0)
+m 1 0 0 0 0 0 10 0 0 0
+s -1 -2 -12 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s -1 -2 -14 0.7
+
+/ cyan unit sphere at (1, 0, -2)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s -1 -2 -16 0.7
+
+/ red unit sphere at (-1, 0, 0)
+m 1 0 0 0 0 0 10 0 0 0
+s -1 -2 -18 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s -1 -2 -20 0.7
+
+/ cyan unit sphere at (1, 0, -2)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s -1 -2 -22 0.7
+
+
+
+
+
+
+
+
+
+/ cyan unit sphere at (-1, 0, 0)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s 1 0 0 0.7
+
+/ red unit sphere at (1, 0, -2)
+m 1 0 0 0 0 0 10 0 0 0
+s 1 0 -2 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 0 -4 0.7
+
+/ cyan unit sphere at (-1, 0, 0)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s 1 0 -6 0.7
+
+/ red unit sphere at (1, 0, -2)
+m 1 0 0 0 0 0 10 0 0 0
+s 1 0 -8 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 0 -10 0.7
+
+/ cyan unit sphere at (-1, 0, 0)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s 1 0 -12 0.7
+
+/ red unit sphere at (1, 0, -2)
+m 1 0 0 0 0 0 10 0 0 0
+s 1 0 -14 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 0 -16 0.7
+
+/ cyan unit sphere at (-1, 0, 0)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s 1 0 -18 0.7
+
+/ red unit sphere at (1, 0, -2)
+m 1 0 0 0 0 0 10 0 0 0
+s 1 0 -20 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 0 -22 0.7
+
+
+
+
+/ cyan unit sphere at (-1, 0, 0)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s 1 2 0 0.7
+
+/ red unit sphere at (1, 0, -2)
+m 1 0 0 0 0 0 10 0 0 0
+s 1 2 -2 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 2 -4 0.7
+
+/ cyan unit sphere at (-1, 0, 0)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s 1 2 -6 0.7
+
+/ red unit sphere at (1, 0, -2)
+m 1 0 0 0 0 0 10 0 0 0
+s 1 2 -8 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 2 -10 0.7
+
+/ cyan unit sphere at (-1, 0, 0)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s 1 2 -12 0.7
+
+/ red unit sphere at (1, 0, -2)
+m 1 0 0 0 0 0 10 0 0 0
+s 1 2 -14 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 2 -16 0.7
+
+/ cyan unit sphere at (-1, 0, 0)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s 1 2 -18 0.7
+
+/ red unit sphere at (1, 0, -2)
+m 1 0 0 0 0 0 10 0 0 0
+s 1 2 -20 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 2 -22 0.7
+
+
+
+/ cyan unit sphere at (-1, 0, 0)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s 1 -2 0 0.7
+
+/ red unit sphere at (1, 0, -2)
+m 1 0 0 0 0 0 10 0 0 0
+s 1 -2 -2 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 -2 -4 0.7
+
+/ cyan unit sphere at (-1, 0, 0)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s 1 -2 -6 0.7
+
+/ red unit sphere at (1, 0, -2)
+m 1 0 0 0 0 0 10 0 0 0
+s 1 -2 -8 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 -2 -10 0.7
+
+/ cyan unit sphere at (-1, 0, 0)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s 1 -2 -12 0.7
+
+/ red unit sphere at (1, 0, -2)
+m 1 0 0 0 0 0 10 0 0 0
+s 1 -2 -14 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 -2 -16 0.7
+
+/ cyan unit sphere at (-1, 0, 0)
+m 0 0.5 0.5 .5 .5 .5 100 .5 .5 .5
+s 1 -2 -18 0.7
+
+/ red unit sphere at (1, 0, -2)
+m 1 0 0 0 0 0 10 0 0 0
+s 1 -2 -20 0.7
+
+/ green unit sphere at (1, 0, -2)
+m 0 .5 0 .5 .5 .5 20 .5 .5 .5
+s 1 -2 -22 0.7
+
+
+
+
+/ camera eye(3) view_vec(3) focal_length vp_width vp_height image_width image_height
+c 0 0 2 0 0 -1 0.035 .053886 0.0404145 800 600

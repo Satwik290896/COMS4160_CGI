@@ -1,0 +1,25 @@
+/ simple test scene file with a single sphere. all distances in meters
+
+/ ambient light
+l a .1 .1 .1
+
+/ point light
+l p 0 3.5 2 5 5 5
+
+/ jug
+i 0 0 1 ../models/jug/jug_01_diff_4k.jpg
+n 0 0 0 0 .2 .2 .2 10 .1 .1 .1
+w ../models/jug/jug_lg.obj
+
+/ gray plane (ground)
+m .5 .5 .5 .1 .1 .1 5 .1 .1 .1
+t -100 0 100 100 0 100 -100 0 -100
+t -100 0 -100 100 0 100 100 0 -100
+
+/ back mirror
+m .2 .2 .8 .2 .2 .2 20 0 0 0
+t -10 0 -10 10 0 -10 -10 10 -9.5
+t -10 10 -9.5 10 0 -10 10 10 -9.5
+
+/ camera eye(3) view_vec(3) focal_length vp_width vp_height image_width image_height
+c 0 2.5 3 0 -2 -4 0.035 .053886 0.0404145 800 600

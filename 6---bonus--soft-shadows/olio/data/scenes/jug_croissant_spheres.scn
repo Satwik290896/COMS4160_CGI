@@ -1,0 +1,43 @@
+/ simple test scene file with a single sphere. all distances in meters
+
+/ area light 1
+l s 0 3.5 2 0 -.86824 -.496139 1 0 0 1 5 5 5
+
+/ area light 2
+l s -5 3.5 0 .752576 -.6585 0 .6585 .752576 0 2 5 5 5
+
+/ sphere
+i 0 0 0 ../images/uv_grid2.png
+n 0 1 1 1 0 0 0 1 .05 .05 .05
+s -1.5 .5 1 .5
+
+/ sphere
+d 1.8 1 1 1
+s 1.5 .5 1 .5
+
+/ sphere
+m 1 0 0 0 0 0 1 0 0 0
+s 0 .25 1.5 .25
+
+/ jug
+i 1 0 1 ../models/jug/jug_01_diff_4k.jpg
+n 1 0 0 0 .2 .2 .2 10 .05 .05 .05
+w ../models/jug/jug_lg.obj
+
+/ croissant
+i 2 0 1 ../models/croissant/croissant_diff_4k.jpg
+n 2 0 0 0 0 0 0 1 .1 .1 .1
+w ../models/croissant/croissant.obj
+
+/ gray plane (ground)
+m .5 .5 .5 .1 .1 .1 5 0 0 0
+t -100 0 100 100 0 100 -100 0 -100
+t -100 0 -100 100 0 100 100 0 -100
+
+/ back mirror
+m .2 .2 .8 .2 .2 .2 20 .4 .4 .4
+t -10 0 -10 10 0 -10 -10 10 -9.5
+t -10 10 -9.5 10 0 -10 10 10 -9.5
+
+/ camera eye(3) view_vec(3) focal_length vp_width vp_height image_width image_height
+c 0 3 5 0 -2.2 -5 0.035 .053886 .030310875 1280 720

@@ -1,0 +1,7 @@
+/ simple test scene file with a single sphere. all distances in meters
+
+/ unit sphere at (-1, 0, 0)
+s -1 0 0 1
+
+/ camera eye(3) view_vec(3) focal_length vp_width vp_height image_width image_height
+c 0 0 2 0 0 -1 0.035 .053886 0.0404145 800 600
